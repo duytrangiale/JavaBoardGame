@@ -21,8 +21,6 @@ A completed game:
 
 <img src="assets/completedgame.png" width="400">
 
-To help you visualize the game, we have provided a
-[paper](assets/papergame.pdf) version, which you can cut out.
 
 #### Challenges
 
@@ -32,15 +30,6 @@ nine central squares.  Here is the chosen challenge for the game above
 
 <img src="assets/challenge.png" width="400">
 
-Interestingly, although all challenges are specified only in terms of
-the arrangement of colors in the nine central squares, some challenges
-are much easier to solve than others.  If you attempt the harder
-tasks, you may want to reflect on what makes some challenges so much
-easier than others.  Note that as a general rule for puzzles, the more
-constrained the player is, the fewer options they have, and
-consequently the solution to the challenge is simpler.
-
-The game comes with five difficulty levels: _starter_, _junior_, _expert_, _master_, and _wizard_, and offers 24 challenges at each level, for a total of 120 prescribed challenges.   These challenges are provided for you in the [Solutions class](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2/blob/master/src/comp1110/ass2/Solution.java#L28), and the different difficulty levels are tested in the [SolutionsTest](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2/blob/master/tests/comp1110/ass2/SolutionsTest.java#L38) test.
 
 #### Solutions
 
@@ -111,12 +100,6 @@ For a piece placement to be valid, the following must be true:
   locations (**no part of a piece may be off the board**).
 * All squares comprising each piece must be placed on vacant board
   locations (**pieces may not overlap**).
-
-#### Encoding Game State and Challenge
-
-Game states and challenges are encoded as strings.  Your game will
-need to be able to initialize itself using these strings and some of
-your tasks relate directly to these strings.
 
 ##### Challenge Strings
 
